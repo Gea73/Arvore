@@ -20,6 +20,9 @@ namespace ArvoreExercicio
             tree.Inserir(35);
             tree.MostrarRaiz();
             tree.MostrarArvore();
+            tree.Busca(7);
+            tree.Busca(3);
+            tree.Busca(35);
             Console.ReadLine();
         }
     }

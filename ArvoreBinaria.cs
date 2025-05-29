@@ -150,6 +150,40 @@ namespace ArvoreExercicio
 
         }
 
+
+
+
+        public bool Busca(int Valor)
+        {
+            
+
+            No comparer = _raiz;
+            while (comparer != null)
+            {
+
+            if (comparer.Valor == Valor)
+            {
+                    Console.WriteLine("Valor Encontrado");
+                    return true;
+                }
+            else
+            {
+                if (Valor > comparer.Valor)
+                {
+                    comparer = comparer.DireitoB;
+                }
+
+                else
+                {
+                    comparer = comparer.EsquerdoS;
+
+                }
+            }
+
+        }
+            Console.WriteLine("Valor não encontrado");
+            return false;
+        }
     }
 }
 

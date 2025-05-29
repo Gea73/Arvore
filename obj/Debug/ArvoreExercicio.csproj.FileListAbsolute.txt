@@ -5,3 +5,10 @@ C:\Users\GEANCARLOSRAMOSDEOLI\source\repos\ArvoreExercicio\obj\Debug\ArvoreExerc
 C:\Users\GEANCARLOSRAMOSDEOLI\source\repos\ArvoreExercicio\obj\Debug\ArvoreExercicio.csproj.CoreCompileInputs.cache
 C:\Users\GEANCARLOSRAMOSDEOLI\source\repos\ArvoreExercicio\obj\Debug\ArvoreExercicio.exe
 C:\Users\GEANCARLOSRAMOSDEOLI\source\repos\ArvoreExercicio\obj\Debug\ArvoreExercicio.pdb
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\bin\Debug\ArvoreExercicio.exe.config
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\bin\Debug\ArvoreExercicio.exe
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\bin\Debug\ArvoreExercicio.pdb
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\obj\Debug\ArvoreExercicio.csproj.AssemblyReference.cache
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\obj\Debug\ArvoreExercicio.csproj.CoreCompileInputs.cache
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\obj\Debug\ArvoreExercicio.exe
+C:\Users\GEANCARLOSRAMOSDEOLI\Documents\ArvoreExercicio\obj\Debug\ArvoreExercicio.pdb

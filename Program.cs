@@ -16,6 +16,8 @@ namespace ArvoreExercicio
             tree.Inserir(10);
             tree.Inserir(20);
             tree.Inserir(5);
+            tree.Inserir(7);
+            tree.Inserir(35);
             tree.MostrarRaiz();
             tree.MostrarArvore();
             Console.ReadLine();

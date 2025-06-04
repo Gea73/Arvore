@@ -23,6 +23,7 @@ namespace ArvoreExercicio
             tree.Busca(7);
             tree.Busca(3);
             tree.Busca(35);
+            tree.ImprimirEmOrdem();
             Console.ReadLine();
         }
     }

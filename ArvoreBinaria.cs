@@ -39,18 +39,21 @@ namespace ArvoreExercicio
                 No comparer = _raiz;
                 while (inserted == false)
                 {
+
+                    if (comparer.Valor == Valor)
+                    {
+                        Console.WriteLine("Valor Duplicado");
+                        return;
+                    }
+
+
+
                     if (Valor > comparer.Valor)
                     {
                         if (comparer.DireitoB == null)
                         {
                             comparer.DireitoB = new No(Valor);
                             inserted = true;
-
-                        }
-
-                        else if (comparer.Valor == Valor)
-                        {
-                            Console.WriteLine("Valor Duplicado");
 
                         }
 
@@ -67,13 +70,6 @@ namespace ArvoreExercicio
                         {
                             comparer.EsquerdoS = new No(Valor);
                             inserted = true;
-
-                        }
-
-
-                        else if (comparer.Valor == Valor)
-                        {
-                            Console.WriteLine("Valor Duplicado");
 
                         }
 
@@ -151,8 +147,6 @@ namespace ArvoreExercicio
         }
 
 
-
-
         public bool Busca(int Valor)
         {
             
@@ -180,11 +174,45 @@ namespace ArvoreExercicio
                 }
             }
 
-        }
+            }
             Console.WriteLine("Valor não encontrado");
             return false;
         }
+
+        public void ImprimirEmOrdem()
+        {
+            ImprimirEmOrdemRecursivo(_raiz);
+           
+        }
+
+        private void ImprimirEmOrdemRecursivo(No atual)
+        {
+            if (atual != null)
+            {
+                ImprimirEmOrdemRecursivo(atual.EsquerdoS);
+                Console.Write($"{atual.Valor} ");
+                ImprimirEmOrdemRecursivo(atual.DireitoB);
+            }
+        }
+
+
+
+        private int CalcularAltura(No atual)
+        {
+            if (atual == null)
+                return 0;
+
+            int esquerda = CalcularAltura(atual.EsquerdoS);
+            int direita = CalcularAltura(atual.DireitoB);
+
+            return 1 + Math.Max(esquerda, direita);
+        }
+
+
     }
+
+
+
 }
 
     
